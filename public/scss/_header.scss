@@ -1,0 +1,130 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div nav ul{
+        display: flex;
+        list-style-type: none;
+         }
+         li a{
+            text-decoration: none;
+            padding: 5px;
+         }
+         .redes{
+            display: none;
+         }
+}
+.navleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      .nav{align-self: start;       
+    }
+    div nav ul{
+        display: flex;       
+        flex: 1 0 auto;
+        list-style-type: none;
+         }
+         li a{
+            text-decoration: none;
+            padding: 5px;
+         }
+         .redes{
+           display: none;
+            
+            
+         }
+        }
+.navright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      .nav{align-self: end;       
+    }
+    div nav ul{
+        display: flex;        
+        list-style-type: none;
+         }
+         li a{
+            text-decoration: none;
+            padding: 5px;
+         }
+         .redes{
+            display: none;
+         }
+}
+.lognav{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    h1{
+        font-size: 100px;
+        img{
+            width: 140px;
+            height: 70px;
+        }
+    }
+    .nav{
+        display: flex;
+        flex: 1 1 auto;
+    }
+    div nav ul{
+        display: flex;
+        margin-left:10px ;
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+        padding: 5px;
+     }
+     .redes{
+        align-content: flex-end;
+     }
+}
+.lognav2{
+
+    background-color:#F7F6DC; 
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 0 20px;
+    img{
+        width: 180px;
+        height: 60px;
+    }
+   
+   .h1{
+    flex: 0 0 auto;
+    
+        
+    
+   }
+    .nav {
+        flex:1;  
+        
+    }
+    div nav ul{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:10px ;
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+        padding: 5px;
+     }
+}
+
+.fixed{
+   
+    position: fixed;
+    top: 0;
+        right: 0;
+    left: 0;
+    z-index: 4000;
+    width: 100%;
+  
+}
